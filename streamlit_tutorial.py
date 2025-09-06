@@ -8,7 +8,7 @@ uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg
 def is_cat(f):
     return f[0].isupper()
 
-cat_vs_dog_model = load_learner("cat_vs_dog1.pkl")
+cat_vs_dog_model = load_learner("cat-vs-dog1.pkl")
 
 
 def predict(image):
